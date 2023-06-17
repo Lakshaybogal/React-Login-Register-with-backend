@@ -18,7 +18,6 @@ const checkUser = ( async (req, res) => {
         const {email,password} = req.body;
         const user = await User.findOne({email});
         if(user){
-            return res.status(200).json(user);
             if(user.password === password){
                return res.status(200).json(user);
             }

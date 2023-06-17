@@ -38,7 +38,7 @@ const Login = () => {
                 <input type="password" name='password' id='password' placeholder='Password' autoComplete='true' onChange={(e) => setPwd(e.target.value)} required />
                 <button type='submit'>Login</button>
             </form>
-            <a onClick={()=>navigate('/')}>Register</a>
+            <a onClick={() => navigate('/')}>Register</a>
         </main>
     )
 }
