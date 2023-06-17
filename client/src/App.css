@@ -1,0 +1,18 @@
+
+.App{
+  display: grid;
+  place-items:  center;
+  gap: 1rem;
+  padding-top: 50%;
+} 
+input{
+  padding: 0.3rem 1rem;
+}
+
+.centre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-top: 50%;
+}
